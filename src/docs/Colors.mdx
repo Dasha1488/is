@@ -8,6 +8,24 @@ import { ColorPalette, ColorItem } from '@storybook/addon-docs/blocks';
   title='Primary'
   colors={{
     '--color-primary': '#006cbb',
+    '--color-primary-dark': '#0056b3',
+    '--color-primary-light': 'rgba(0, 108, 187, 0.2)',
+  }}
+/>
+
+<ColorItem
+  title='Secondary'
+  colors={{
+    '--color-secondary': '#6c757d',
+    '--color-secondary-dark': '#545b62',
+  }}
+/>
+
+<ColorItem
+  title='Text'
+  colors={{
+    '--color-text': '#212529',
+    '--color-text-light': '#6c757d',
   }}
 />
 
@@ -23,16 +41,11 @@ import { ColorPalette, ColorItem } from '@storybook/addon-docs/blocks';
 />
 
 <ColorItem
-  title='Success'
+  title='Status'
   colors={{
     '--color-success': '#01bd78',
+    '--color-warning': '#ffc107',
+    '--color-error': '#d40019',
   }}
-/>
-
-<ColorItem
-    title='Error'
-    colors={{
-      '--color-error': '#d40019',
-    }}
 />
 </ColorPalette>

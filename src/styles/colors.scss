@@ -1,5 +1,13 @@
 :root {
   --color-primary: #006cbb;
+  --color-primary-dark: #0056b3;
+  --color-primary-light: rgba(0, 108, 187, 0.2);
+
+  --color-secondary: #6c757d;
+  --color-secondary-dark: #545b62;
+
+  --color-text: #212529;
+  --color-text-light: #6c757d;
 
   --color-white: #ffffff;
   --color-gray-light: #eeeeee;
@@ -8,6 +16,8 @@
   --color-black: #000000;
 
   --color-success: #01bd78;
-
+  --color-warning: #ffc107;
   --color-error: #d40019;
+
+  --color-transparent: transparent;
 }
